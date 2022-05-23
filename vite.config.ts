@@ -22,7 +22,7 @@ export default defineConfig({
         ],
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/unpkg\.com\/.*/i,
+            urlPattern: /^https:\/\/closetheskyoverukraine\.com\/.*/i,
             handler: 'CacheFirst',
             options: {
               cacheName: 'unpkg-libs-cache',
